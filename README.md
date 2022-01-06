@@ -7,7 +7,7 @@
 
 <br>
 
-## 🏚 개발 환경 및 기술 스택
+## 🏚 개발 환경
 <p align='center'>
   <img src="https://img.shields.io/badge/React-v17.0.2-blue?logo=React"/>
   <img src="https://img.shields.io/badge/Typescript-v4.5.4-blue?logo=typescript"/>
