@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "@emotion/styled";
-import TaskProvider from './contexts/TaskProvider';
+// import TaskProvider from './contexts/TaskProvider';
 import Header from './components/Header';
 import NewTaskForm from './components/NewTaskForm';
 import TaskList from './components/TaskList';
@@ -15,13 +15,13 @@ const Container = styled.div`
 
 function App() {
   return (
-    <TaskProvider>
+    // <TaskProvider>
       <Container>
         <Header>To Do</Header>
         <NewTaskForm />
         <TaskList/>
       </Container>
-    </TaskProvider>
+    // </TaskProvider>
   );
 }
 

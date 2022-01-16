@@ -1,24 +1,28 @@
 import styled from "@emotion/styled";
-import { FormEvent, FormEventHandler, useState } from "react";
-import { useTasks } from "../contexts/TaskProvider";
+import { FormEvent, useState } from "react";
+import { useDispatch } from "react-redux";
+import { addTask } from "../redux/tasks";
+// import { useTasks } from "../contexts/TaskProvider";
 
 const NewTaskForm = (props: any) => {
-  const [input, setInput] = useState('');
+  const [task, setTask] = useState('');
 
-  const { addTask } = useTasks();
+  // const { addTask } = useTasks();
+  const dispatch = useDispatch();
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    addTask(input);
-    setInput('');
+    // addTask(task);
+    dispatch(addTask(task));
+    setTask('');
   }
 
   return (
     <Form {...props} onSubmit={handleSubmit}>
       <Input
         type="text"
-        value={input}
-        onChange={(e) => setInput(e.target.value)}
+        value={task}
+        onChange={(e) => setTask(e.target.value)}
         required />
       <SubmitButton>Add</SubmitButton>
     </Form>
