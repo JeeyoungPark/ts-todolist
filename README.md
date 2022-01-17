@@ -14,6 +14,12 @@
   <img src="https://img.shields.io/badge/Craco-v6.4.3-oragne"/>
   <img src="https://img.shields.io/badge/emotion-v11.7.1-orange"/>
   <img src="https://img.shields.io/badge/storybook-v7.20.5-yellow"/>
+  <img src="https://img.shields.io/badge/redux-v4.1.2-blueviolet"/>
+  <img src="https://img.shields.io/badge/react--redux-v7.2.6-blueviolet"/>
+  <img src="https://img.shields.io/badge/redux--logger-v3.0.6-blueviolet"/>
+  <img src="https://img.shields.io/badge/@types/redux--logger-v3.0.9-blueviolet"/>
+  <img src="https://img.shields.io/badge/redux--devtools--extension-v2.13.9-blueviolet"/>
+  <img src="https://img.shields.io/badge/redux--persist-v6.0.0-blueviolet"/>
 </p>
 
 <br>
