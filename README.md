@@ -1,9 +1,8 @@
 
 # 타입스크립트로 todolist 만들기
+`TypeScript`와 `Redux`를 연습하기 위한 작업물입니다.<br>
 
-<div align='center'>
-  <img width="400px" src='https://user-images.githubusercontent.com/80609368/148344784-bc91d962-40ba-4e6b-a51a-379a36195716.png'>
-</div>
+`Storybook`을 이용해 컴포넌트를 테스팅 및 관리하였고, `Redux`로 전역적으로 상태를 관리하였습니다.
 
 <br>
 
@@ -30,17 +29,18 @@
 <br>
 
 ## 🔎 주요 기능
+| todo생성 |
+|----------|
+|![create](https://user-images.githubusercontent.com/80609368/151115081-b67a1aad-8a85-4c3d-9bd5-3db48b236db3.gif)|
 
-### 메인 기능
-| todo생성 | todo수정 | todo삭제 |
-|----------|----------|----------|
-|          |          |          |
+| todo삭제 |
+|----------|
+|![delete](https://user-images.githubusercontent.com/80609368/151115423-6886c616-2997-472f-bf0d-fafbc6421523.gif)|
+ 
+| todo수정 |
+|----------|
+|![update](https://user-images.githubusercontent.com/80609368/151115621-0924077d-30e4-413a-8642-afd6e57587f7.gif)|
+
+<br>
 
 
-(작성중)
-[uuid 라이브러리](https://www.npmjs.com/package/uuid)로 고유한 아이디 생성<br>
-uuid 라이브러리는 순수 자바스크립트로만 만들어졌기 때문에 타입이 없음. 따라서 타입을 선언해놓은 오픈소스 사용
-```shell
-npm i uuid
-npm i -D @types/uuid
-```
